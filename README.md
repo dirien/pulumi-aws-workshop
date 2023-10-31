@@ -4,7 +4,7 @@
 
 <img src="img/main.png">
 
-## Welcome, Pulumi and Friends! 👋
+## Welcome, Pulumi and AWS Friends! 👋
 
 The goal of this workshop is for you to learn how to use Pulumi in different scenarios. From running instances and
 managed service to Kubernetes and GitOps. The workshop is split in multiple chapters showing you the different aspects
