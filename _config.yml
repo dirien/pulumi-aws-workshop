@@ -1,0 +1,22 @@
+title: "Pulumi Workshop: Foundations to Advanced"
+author: Engin Diri
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+
+plugins:
+- jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+- 00-hello-aws-world.md
+- 01-eks-cluster-setup.md
+- 02-app.md
+- 03-simple-deploy-app.md
+- 04-argocd-setup.md
+- 05-housekeeping.md
+- README.md
+- img/*
