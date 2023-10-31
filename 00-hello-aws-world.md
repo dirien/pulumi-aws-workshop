@@ -33,8 +33,6 @@ comfortable with. Currently, (6/2023) Pulumi supports the following languages:
 
 * YAML
 
-The workshop examples are written in `typescript` and `Go`, but feel free to use the language you are most comfortable
-with.
 
 ## Instructions
 
@@ -59,8 +57,7 @@ aws sts get-caller-identity
 > If you run Pulumi for the first time, you will be asked to log in. Follow the instructions on the screen to
 > login. You may need to create an account first, don't worry it is free.
 
-To initialize a new Pulumi project, run `pulumi new` and select from all the available templates the `typescript`. Of
-course, you can use any other language you want.
+To initialize a new Pulumi project, run `pulumi new` and select from all the available templates the `aws-go`.
 
 ```bash
 pulumi new aws-go
