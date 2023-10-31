@@ -139,8 +139,8 @@ pulumi up
 To print information about the resources, you need to export the variables in your Pulumi program. In my case, I want to
 export the public IP of the compute instance.
 
-```typescript
-export const publicIp = simpleVM.publicIpAddress
+```go
+ctx.Export("publicIp", server.PublicIp)
 ```
 
 Run `pulumi up` again to see the public IP of the compute instance.
