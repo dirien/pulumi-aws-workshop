@@ -1,0 +1,13 @@
+name: 01-eks-cluster-setup
+runtime: go
+description: A minimal AWS Go Pulumi program
+
+config:
+  aws:region: eu-central-1
+  kubernetesVersion: "1.28"
+  instanceType: t3.medium
+  desiredCapacity: 1
+  minSize: 1
+  maxSize: 2
+
+

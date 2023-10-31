@@ -1,0 +1,8 @@
+name: 02-app
+runtime: go
+description: A minimal Go Pulumi program
+
+config:
+  registry: "docker.io/dirien"
+  username: "dirien"
+  password: "dckr_pat_1FL6OI8gA6QJRi2hIgJ-ugNs-gY"
