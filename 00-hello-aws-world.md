@@ -298,7 +298,7 @@ And paste this content:
 values:
   webserver:
     httpPort: 8080
-    region: at-vie-1
+    region: eu-central-1
     userData: |
       #cloud-config
       package_update: true
@@ -313,7 +313,7 @@ values:
       - nohup python3 -m http.server ${webserver.httpPort} &
   pulumiConfig:
     httpPort: ${webserver.httpPort}
-    aws:region: ${webserver.zone}
+    aws:region: ${webserver.region}
     userData: ${webserver.userData}
 ```
 
@@ -345,7 +345,7 @@ imports:
 values:
   webserver:
     httpPort: 8081
-    region: at-vie-2
+    region: eu-west-3
     userData: |
       #cloud-config
       package_update: true
@@ -360,7 +360,7 @@ values:
       - nohup python3 -m http.server ${webserver.httpPort} &
   pulumiConfig:
     httpPort: ${webserver.httpPort}
-    aws:region: ${webserver.zone}
+    aws:region: ${webserver.region}
     userData: ${webserver.userData}
 ```
 
